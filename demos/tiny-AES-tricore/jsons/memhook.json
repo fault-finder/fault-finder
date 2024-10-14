@@ -1,0 +1,12 @@
+{
+    "binary json filename"  : "demos/tricore/jsons/binary-details-tinyAES.json",
+    "mode"                  : "memhook",
+    "output directory name" : "notused",
+    "threads"               : "notused",
+    "fault model filename"  : "notused",
+    "checkpoints"           : "notused",
+    "number of checkpoints" : "notused",
+    "equivalents"           : "no",
+    "timeit"                : "yes",
+    "display disassembly"   : "no"
+}   

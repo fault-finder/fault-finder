@@ -1,0 +1,12 @@
+{
+    "binary json filename"  : "demos/tiny-AES-arm/jsons/binary-details.json",
+    "mode"                  : "goldenrun_full",
+    "output directory name" : "stdout",
+    "threads"               : "notused",
+    "fault model filename"  : "notused",
+    "checkpoints"           : "no",
+    "number of checkpoints" : "notused",
+    "equivalents"           : "no",
+    "timeit"                : "no",
+    "display disassembly"   : "yes"
+}   

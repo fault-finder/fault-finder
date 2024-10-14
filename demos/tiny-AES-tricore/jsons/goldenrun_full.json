@@ -1,0 +1,12 @@
+{
+    "binary json filename"  : "demos/tiny-AES-tricore/jsons/binary-details-tinyAES.json",
+    "mode"                  : "goldenrun_full",
+    "output directory name" : "notused",
+    "threads"               : "notused",
+    "fault model filename"  : "notused",
+    "checkpoints"           : "notused",
+    "number of checkpoints" : "notused",
+    "equivalents"           : "no", 
+    "timeit"                : "yes",
+    "display disassembly"   : "no"
+}   

@@ -1,0 +1,61 @@
+{
+    "binary filename" : "demos/tiny-AES-arm/bins/tinyAES-tricorecopy-arm.elf",
+    "cpu":"MAX",
+    "unicorn arch"    :"arm",
+    "unicorn mode"    :"LITTLE ENDIAN",
+    "capstone arch"   :"arm",
+    "capstone mode"   :"LITTLE_ENDIAN",
+    "memory address"  :"0x00000",
+    "memory size"     :"0x80000",
+    "other memory"    :
+    [
+        {
+            "address"   : "0x20000000",
+            "size"      :     "0x4000"
+        }  
+    ],
+    "stack address" : "0x80000",
+    "stack size"    : "0x1000",
+    "code offset"   : "0x0000",
+    "code start"    : "0x8018",
+    "code end"      : "0x8084",
+    "fault start"   : "0x806c",
+    "fault end"     : "0x8070",
+    "set memory"    : 
+    [
+
+    ],
+    "set registers"   :
+    [
+    ],
+    "outputs"    : 
+    [
+        {   
+            "location"      : "address in register",
+            "address"       : "",
+            "register"      : "r0",
+            "length"        : "16",
+            "offset"        : ""
+        },
+        {   
+            "location"      : "address in register",
+            "address"       : "",
+            "register"      : "r1",
+            "length"        : "16",
+            "offset"        : ""
+        } 
+    ],
+    "skips":
+    [
+        { 
+            "address"       : "0x8024",
+            "bytes"         : "0x4"
+        },
+        { 
+            "address"       : "0x8074",
+            "bytes"         : "0x4"
+        }
+    ],
+    "timeout":"0",
+    "filter results": "no"
+}   

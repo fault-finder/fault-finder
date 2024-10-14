@@ -1,0 +1,62 @@
+{
+    "cpu" : "486",
+    "unicorn arch"          :"x86",
+    "unicorn mode"          :"64",
+    "capstone arch"         :"x86",
+    "capstone mode"         :"64",
+    "binary filename"       : "demos/tiny-AES-x86/bins/tinyAES-tricorecopy-x86.elf",
+    "memory address"        : "0x0400000",
+    "memory size"           : "0x0100000",
+    "other memory"  :
+    [
+        
+    ],
+    "code offset"   : "0x0",
+    "stack address" : "0x8000000",
+    "stack size"    : "0x0001000",
+    "code start"    : "0x17d1",
+    "code end"      : "0x187b",
+    "fault start"   : "0x1858",
+    "fault end"     : "0x185d",
+    "set memory"    : 
+    [
+
+    ],
+    "set registers"   :
+    [
+    ],
+    "outputs"    : 
+    [
+        {   
+            "location"      : "address in register",
+            "address"       : "",
+            "register"      : "rsi",
+            "length"        : "16",
+            "offset"        : ""
+        },
+        {   
+            "location"      : "address in register",
+            "address"       : "",
+            "register"      : "rdi",
+            "length"        : "16",
+            "offset"        : ""
+        }
+    ],
+    "skips":
+    [
+        { 
+            "address"       : "0x17e8",
+            "bytes"         : "0x9"
+        },
+        { 
+            "address"       : "0x1808",
+            "bytes"         : "0x5"
+        },
+        { 
+            "address"       : "0x186b",
+            "bytes"         : "0x5"
+        }
+    ],
+    "timeout":"0",
+    "filter results": "no"
+}   

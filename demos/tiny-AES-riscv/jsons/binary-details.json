@@ -1,0 +1,54 @@
+{
+    "cpu":"BASE32",
+    "binary filename" : "demos/tiny-AES-riscv/bins/tinyAES-tricorecopy-riscv.elf",
+    "unicorn arch"    :"riscv",
+    "unicorn mode"    :"RISCV64",
+    "capstone arch"   :"none",
+    "capstone mode"   :"none",
+    "memory address"  :"0x10000",
+    "memory size"     :"0x100000",
+    "other memory"    :
+    [
+        {
+            "address"   : "0x20000000",
+            "size"      :     "0x4000"
+        }  
+    ],
+    "stack address" : "0x800000",
+    "stack size"    : "0x10000",
+    "code offset"   : "0x0000",
+    "code start"    : "0x348",
+    "code end"      : "0x3cc",
+    "fault start"   : "0x3b0",
+    "fault end"     : "0x3b4",
+    "set memory"    : 
+    [
+
+    ],
+    "set registers"   :
+    [
+    ],
+    "outputs"    : 
+    [
+        {   
+            "location"      : "address in register",
+            "address"       : "",
+            "register"      : "x18",
+            "length"        : "16",
+            "offset"        : ""
+        } 
+    ],
+    "skips":
+    [
+        { 
+            "address"       : "0x36a",
+            "bytes"         : "0x4"
+        },
+        { 
+            "address"       : "0x3be",
+            "bytes"         : "0x4"
+        }
+    ],
+    "timeout":"0",
+    "filter results": "no"
+}   

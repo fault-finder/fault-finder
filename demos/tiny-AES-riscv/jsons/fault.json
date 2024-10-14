@@ -1,0 +1,13 @@
+{
+    "binary json filename"  : "demos/tiny-AES-riscv/jsons/binary-details.json",
+    "mode"                  : "fault",
+    "output directory name" : "demos/tiny-AES-riscv/outputs/",
+    "threads"               : "1",
+    "fault model filename"  : "demos/tiny-AES-riscv/faultmodels/small-riscv.txt",
+    "checkpoints"           : "no",
+    "number of checkpoints" : "notused",
+    "equivalents"           : "no",
+    "timeit"                : "no",
+    "display disassembly"   : "yes",
+    "max instructions"      : "10000"
+}   

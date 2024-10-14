@@ -1,0 +1,109 @@
+{
+    "comment" : "Everything in the comment is not used - other than by the humans",
+    "binary filename": "demos/tiny-AES-tricore/bins/Tricore_TinyAES_mpe_pflash0.bin",
+    "unicorn arch"          :"tricore",
+    "unicorn mode"          :"little endian",
+    "capstone arch"         :"none",
+    "capstone mode"         :"LITTLE_ENDIAN",
+    "cpu" : "TC27x",
+    "memory address"        : "0x80000000",
+    "memory size"           :  "0x0100000",
+    "other memory"          :
+    [
+        {
+            "address"   :   "0x40000000",
+            "size"      :       "0x4000"
+        },
+        {
+            "address"   :   "0xf0030000",
+            "size"      :      "0x10000"
+        },
+        {
+            "address"   :   "0xf8000000",
+            "size"      :      "0x10000"
+        },
+        {
+            "address"   :   "0xf0190000",
+            "size"      :      "0x10000"
+        },
+        {
+            "address"   :   "0xd0004000",
+            "size"      :      "0x10000"
+        },
+        {
+            "address"   :   "0x90000000",
+            "size"      :      "0x10000"
+        }
+        
+    ],
+    "code offset"   :   "0x00",
+    "stack address" :   "0x70000000",
+    "stack size"    :      "0x10000",
+    "stack start"    :  "0x70009000",
+    "code start-old" :    "0x19a",
+    "code start"    :       "0x8f4",
+    "code end"      :       "0x208",
+    "fault start"   :       "0x1e0",
+    "fault end"     :       "0x1f0",
+    "set memory"    : 
+    [
+        
+    ],
+    "set registers"   :
+    [
+
+    ],
+    "outputs"    : 
+    [  
+        {   
+            "comment"      : "output?",
+            "location"      : "address in register",
+            "address"       : "",
+            "register"      : "a5",
+            "length"        : "16",
+            "offset"        : ""
+        }
+    ],
+    "skips":
+    [
+        {
+            "address"   :   "0xa0a",
+            "bytes"     :    "0x4"
+        },
+        {
+            "address"   :   "0xa16",
+            "bytes"     :     "0x4"
+        },
+        {
+            "address"   :   "0xa2c",
+            "bytes"     :     "0x4"
+        },
+        {
+            "address"   :   "0xa40",
+            "bytes"     :     "0x4"
+        },
+        {
+            "address"   :   "0xa78",
+            "bytes"     :     "0x4"
+        },
+        {
+            "address"   :   "0xa88",
+            "bytes"     :     "0x4"
+        },
+        {
+            "address"   :   "0xa96",
+            "bytes"     :     "0x4"
+        },
+        {
+            "address"   :   "0x1f8",
+            "bytes"     :     "0x4"
+        }
+
+
+    ],
+    "hard stops":
+    [
+    ],
+    "timeout":"0",
+    "filter results": "no"
+}   

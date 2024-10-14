@@ -1,0 +1,127 @@
+  [Nr] Name                                       Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                                            NULL            00000000 000000 000000 00       0   0  0
+  [ 1] .shstrtab                                  STRTAB          00000000 019b13 000d60 00       0   0  0
+  [ 2] .strtab                                    STRTAB          00000000 01823c 0018d7 00       0   0  0
+  [ 3] .symtab                                    SYMTAB          00000000 01123c 0016d0 10       2 250  0
+  [ 4] .text.aes.KeyExpansion                     PROGBITS        80000756 000eb4 0000ae 00 AXp   0   0  2
+  [ 5] .text.aes.AES_init_ctx                     PROGBITS        800006e8 000f62 000004 00 AXp   0   0  2
+  [ 6] .text.aes.AddRoundKey                      PROGBITS        800006ec 000f66 00002e 00 AXp   0   0  2
+  [ 7] .text.aes.SubBytes                         PROGBITS        80000882 000f94 000020 00 AXp   0   0  2
+  [ 8] .text.aes.ShiftRows                        PROGBITS        80000858 000fb4 00002a 00 AXp   0   0  2
+  [ 9] .text.aes..cocofun_1                       PROGBITS        800006c0 000fde 00001e 00 AXp   0   0  2
+  [10] .text.aes.xtime                            PROGBITS        800008a2 000ffc 000012 00 AXp   0   0  2
+  [11] .text.aes.MixColumns                       PROGBITS        80000804 00100e 000054 00 AXp   0   0  2
+  [12] .text.aes.Cipher                           PROGBITS        8000071a 001062 00003c 00 AXp   0   0  2
+  [13] .text.aes.AES_ECB_encrypt                  PROGBITS        800006de 00109e 00000a 00 AXp   0   0  2
+  [14] .rodata.aes.sbox                           PROGBITS        80000dac 0010a8 000100 00  Ap   0   0  1
+  [15] .rodata.aes.Rcon                           PROGBITS        80000da1 0011a8 00000b 00  Ap   0   0  1
+  [16] .text.cstart..cocofun_7                    PROGBITS        800008ec 0011b4 000008 00 AXp   0   0  2
+  [17] .text.libc.reset                           PROGBITS        a0000020 0011bc 000004 00 AXp   0   0  2
+  [18] .text.cstart.__init_sp                     PROGBITS        800008f4 0011c0 000016 00 AXp   0   0  2
+  [19] .text.cstart._start                        PROGBITS        8000090a 0011d6 000276 00 AXp   0   0  2
+  [20] .text.cstart..cocofun_6                    PROGBITS        800008de 00144c 00000e 00 AXp   0   0  2
+  [21] .text.cstart..cocofun_5                    PROGBITS        800008d0 00145a 00000e 00 AXp   0   0  2
+  [22] .text.cstart..cocofun_4                    PROGBITS        800008c2 001468 00000e 00 AXp   0   0  2
+  [23] .text.cstart..cocofun_3                    PROGBITS        800008b4 001476 00000e 00 AXp   0   0  2
+  [24] .text.cstart.setclockpersec                PROGBITS        80000b80 001484 00008e 00 AXp   0   0  2
+  [25] .text.sync_on_halt._sync_on_halt_end       PROGBITS        80000d3c 001512 000006 00 AXp   0   0  2
+  [26] .text.sync_on_halt._sync_on_halt           PROGBITS        80000cba 001518 000082 00 AXop  0   0  2
+  [27] .zbss.clone.sync_on_halt._sync_on_halt_lcx NOBITS          d0003f80 000000 000040 00 WAp   0   0 64
+  [28] .zbss.clone.sync_on_halt._sync_on_halt_ucx NOBITS          d0003fc0 000000 000040 00 WAp   0   0 64
+  [29] .text.Tricore_TinyAES.test_encrypt_ecb     PROGBITS        800001aa 00159a 000084 00 AXp   0   0  2
+  [30] .text.Tricore_TinyAES..cocofun_8           PROGBITS        80000190 00161e 00000a 00 AXp   0   0  2
+  [31] .text.Tricore_TinyAES.main                 PROGBITS        8000019a 001628 000010 00 AXp   0   0  2
+  [32] .rodata.Tricore_TinyAES..1.ini             PROGBITS        80000d42 001638 000010 00  Ap   0   0  1
+  [33] .rodata.Tricore_TinyAES..2.ini             PROGBITS        80000d52 001648 000010 00  Ap   0   0  1
+  [34] .rodata.Tricore_TinyAES..3.ini             PROGBITS        80000d62 001658 000010 00  Ap   0   0  1
+  [35] .rodata.Tricore_TinyAES..4.str             PROGBITS        80000d72 001668 00000e 00  Ap   0   0  1
+  [36] .rodata.Tricore_TinyAES..5.str             PROGBITS        80000d80 001676 00000a 00  Ap   0   0  1
+  [37] .rodata.Tricore_TinyAES..6.str             PROGBITS        80000d8a 001680 00000a 00  Ap   0   0  1
+  [38] .rodata.Tricore_TinyAES..7.str             PROGBITS        80000d94 00168a 00000d 00  Ap   0   0  1
+  [39] .text._ldmst_clear_byte.libcs_fpu          PROGBITS        800005b8 001698 00002e 00 AXp   0   0  2
+  [40] .text._ldmst_copy_byte.libcs_fpu           PROGBITS        800005e6 0016c6 000044 00 AXp   0   0  2
+  [41] .text._c_init_entry.libcs_fpu              PROGBITS        8000023a 00170a 000120 00 AXp   0   0  2
+  [42] .text._c_init.libcs_fpu                    PROGBITS        8000022e 00182a 00000c 00 AXp   0   0  2
+  [43] .text.setfoschz.libcs_fpu                  PROGBITS        80000cac 001836 00000e 00 AXp   0   0  2
+  [44] .text..cocofun_4.libcs_fpu                 PROGBITS        80000186 001844 00000a 00 AXp   0   0  2
+  [45] .data.__clocks_per_sec.libcs_fpu           NOBITS          9000017c 000000 000008 00 WAp   0   0  4
+  [46] .text.traptab0.trapvec.005                 PROGBITS        a00f60a0 00184e 00000a 00 AXp   0   0  2
+  [47] .text.traptab1.trapvec.005                 PROGBITS        a00f61a0 001858 00000a 00 AXp   0   0  2
+  [48] .text.traptab2.trapvec.005                 PROGBITS        a00f62a0 001862 00000a 00 AXp   0   0  2
+  [49] .text._trapassertion.libcs_fpu             PROGBITS        8000062a 00186c 000014 00 AXp   0   0  2
+  [50] .text.traptab0.trapvec.003                 PROGBITS        a00f6060 001880 00000a 00 AXp   0   0  2
+  [51] .text.traptab1.trapvec.003                 PROGBITS        a00f6160 00188a 00000a 00 AXp   0   0  2
+  [52] .text.traptab2.trapvec.003                 PROGBITS        a00f6260 001894 00000a 00 AXp   0   0  2
+  [53] .text._trapcontext.libcs_fpu               PROGBITS        80000652 00189e 000014 00 AXp   0   0  2
+  [54] .text.traptab0.trapvec.000                 PROGBITS        a00f6000 0018b2 00000a 00 AXp   0   0  2
+  [55] .text.traptab1.trapvec.000                 PROGBITS        a00f6100 0018bc 00000a 00 AXp   0   0  2
+  [56] .text.traptab2.trapvec.000                 PROGBITS        a00f6200 0018c6 00000a 00 AXp   0   0  2
+  [57] .text._trapmmu.libcs_fpu                   PROGBITS        8000067a 0018d0 000012 00 AXp   0   0  2
+  [58] .text.traptab0.trapvec.001                 PROGBITS        a00f6020 0018e2 00000a 00 AXp   0   0  2
+  [59] .text.traptab1.trapvec.001                 PROGBITS        a00f6120 0018ec 00000a 00 AXp   0   0  2
+  [60] .text.traptab2.trapvec.001                 PROGBITS        a00f6220 0018f6 00000a 00 AXp   0   0  2
+  [61] .text._trapprotection.libcs_fpu            PROGBITS        800006a0 001900 000014 00 AXp   0   0  2
+  [62] .text.traptab0.trapvec.004                 PROGBITS        a00f6080 001914 00000a 00 AXp   0   0  2
+  [63] .text.traptab1.trapvec.004                 PROGBITS        a00f6180 00191e 00000a 00 AXp   0   0  2
+  [64] .text.traptab2.trapvec.004                 PROGBITS        a00f6280 001928 00000a 00 AXp   0   0  2
+  [65] .text._trapbus.libcs_fpu                   PROGBITS        8000063e 001932 000014 00 AXp   0   0  2
+  [66] .text.traptab0.trapvec.002                 PROGBITS        a00f6040 001946 00000a 00 AXp   0   0  2
+  [67] .text.traptab1.trapvec.002                 PROGBITS        a00f6140 001950 00000a 00 AXp   0   0  2
+  [68] .text.traptab2.trapvec.002                 PROGBITS        a00f6240 00195a 00000a 00 AXp   0   0  2
+  [69] .text._trapinstruction.libcs_fpu           PROGBITS        80000666 001964 000014 00 AXp   0   0  2
+  [70] .text.traptab0.trapvec.007                 PROGBITS        a00f60e0 001978 00000a 00 AXp   0   0  2
+  [71] .text.traptab1.trapvec.007                 PROGBITS        a00f61e0 001982 00000a 00 AXp   0   0  2
+  [72] .text.traptab2.trapvec.007                 PROGBITS        a00f62e0 00198c 00000a 00 AXp   0   0  2
+  [73] .text._trapnmi.libcs_fpu                   PROGBITS        8000068c 001996 000014 00 AXp   0   0  2
+  [74] .text.traptab0.trapvec.006                 PROGBITS        a00f60c0 0019aa 00000a 00 AXp   0   0  2
+  [75] .text.traptab1.trapvec.006                 PROGBITS        a00f61c0 0019b4 00000a 00 AXp   0   0  2
+  [76] .text.traptab2.trapvec.006                 PROGBITS        a00f62c0 0019be 00000a 00 AXp   0   0  2
+  [77] .text._trapsystem.libcs_fpu                PROGBITS        800006b4 0019c8 00000c 00 AXp   0   0  2
+  [78] .text._doprint.libcs_fpu                   PROGBITS        8000040e 0019d4 00002c 00 AXp   0   0  2
+  [79] .text.printf.libcs_fpu                     PROGBITS        80000c86 001a00 000026 00 AXp   0   0  2
+  [80] .text._doclose.libcs_fpu                   PROGBITS        800003f0 001a26 00001e 00 AXp   0   0  2
+  [81] .bss.stdin_buf.libcs_fpu                   NOBITS          90000014 000000 000050 00 WAp   0   0  1
+  [82] .bss.stdout_buf.libcs_fpu                  NOBITS          90000064 000000 000050 00 WAp   0   0  1
+  [83] .data._iob.libcs_fpu                       NOBITS          900000b4 000000 0000c8 00 WAp   0   0  4
+  [84] .text.fputc.libcs_fpu                      PROGBITS        80000c4c 001a44 000020 00 AXp   0   0  2
+  [85] .text._flsbuf.libcs_fpu                    PROGBITS        800004b6 001a64 0000a4 00 AXp   0   0  2
+  [86] .text.fclose.libcs_fpu                     PROGBITS        80000c24 001b08 000028 00 AXp   0   0  2
+  [87] .text._fflush.libcs_fpu                    PROGBITS        8000044c 001b30 00006a 00 AXp   0   0  2
+  [88] .text._io_putc.libcs_fpu                   PROGBITS        8000059a 001b9a 00001e 00 AXp   0   0  2
+  [89] .text.exit.libcs_fpu                       PROGBITS        80000c0e 001bb8 000016 00 AXp   0   0  2
+  [90] .text..cocofun_1.libcs_fpu                 PROGBITS        8000017c 001bce 00000a 00 AXp   0   0  2
+  [91] .text._host_write.libcs_fpu                PROGBITS        80000584 001bd8 000016 00 AXp   0   0  2
+  [92] .text._host_lseek.libcs_fpu                PROGBITS        8000056e 001bee 000016 00 AXp   0   0  2
+  [93] .text._host_close.libcs_fpu                PROGBITS        8000055a 001c04 000014 00 AXp   0   0  2
+  [94] .bss._dbg_request.libcs_fpu                NOBITS          90000000 000000 000014 00 WAp   0   0  4
+  [95] .text._exit.libcs_fpu                      PROGBITS        8000043a 001c18 000012 00 AXp   0   0  2
+  [96] .text.memcmp.libcs_fpu                     PROGBITS        80000c6c 001c2a 00001a 00 AXp   0   0  2
+  [97] .text._weakstub.libcs_fpu                  PROGBITS        800000f6 001c44 000002 00 AXp   0   0  2
+  [98] .text._Exit.libc                           PROGBITS        800000f8 001c48 000004 00 AXop  0   0  8
+  [99] .text._dbg_trap.libcs_fpu                  PROGBITS        800000f4 001c4c 000002 00 AXop  0   0  2
+  [100] .text._dbg_trap_tc.libcs_fpu              PROGBITS        80000376 001c4e 00007a 00 AXp   0   0  2
+  [101] .text._dbg_cacheawi.libcs_fpu             PROGBITS        8000035a 001cc8 00001c 00 AXp   0   0  2
+  [102] .debug_abbrev                             PROGBITS        00000000 001ce4 002691 00       0   0  0
+  [103] .debug_frame                              PROGBITS        00000000 004375 000bb0 00       0   0  0
+  [104] .debug_info                               PROGBITS        00000000 004f25 00886b 00       0   0  0
+  [105] .debug_line                               PROGBITS        00000000 00d790 002a0d 00       0   0  0
+  [106] .debug_loc                                PROGBITS        00000000 01019d 000b74 00       0   0  0
+  [107] .debug_ranges                             PROGBITS        00000000 010d11 0003d8 00       0   0  0
+  [108] table                                     PROGBITS        800000fc 0110ec 000080 00  Ap   0   0  4
+  [109] [.data.__clocks_per_sec.libcs_fpu]        PROGBITS        800000ec 01116c 000008 00  Ap   0   0  4
+  [110] [.data._iob.libcs_fpu]                    PROGBITS        80000024 011174 0000c8 00  Ap   0   0  4
+  [111] bmhd0                                     NOBITS          a0000000 000000 000020 00 WAp   0   0  0
+  [112] bmhd1                                     NOBITS          a0020000 000000 000020 00 WAp   0   0  0
+  [113] bmhd2                                     NOBITS          a000ffe0 000000 000020 00 WAp   0   0  0
+  [114] bmhd3                                     NOBITS          a001ffe0 000000 000020 00 WAp   0   0  0
+  [115] ustack_tc0                                NOBITS          70005000 000000 004000 00 WAp   0   0  8
+  [116] istack_tc0                                NOBITS          70000000 000000 000400 00 WAp   0   0  8
+  [117] csa_tc0                                   NOBITS          d0004000 000000 001000 00 WAp   0   0 64
+  [118] csa_tc1                                   NOBITS          d0004000 000000 001000 00 WAp   0   0 64
+  [119] csa_tc2                                   NOBITS          d0004000 000000 001000 00 WAp   0   0 64
+  [120] .note                                     NOTE            00000000 01290c 005930 00       0   0  0
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  p (processor specific)

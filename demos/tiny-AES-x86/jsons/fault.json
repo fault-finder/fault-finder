@@ -1,0 +1,13 @@
+{
+    "binary json filename"  : "demos/tiny-AES-x86/jsons/binary-details.json",
+    "mode"                  : "fault",
+    "output directory name" : "demos/tiny-AES-x86/outputs/",
+    "threads"               : "1",
+    "fault model filename"  : "demos/tiny-AES-x86/faultmodels/small-x86.txt",
+    "checkpoints"           : "no",
+    "number of checkpoints" : "0",
+    "equivalents"           : "no",
+    "timeit"                : "no",
+    "max instructions"      : "30000",
+    "display disassembly"   : "no"
+}   
